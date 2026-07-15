@@ -1,0 +1,7 @@
+# Исключаем тяжелые файлы сборки, которые блокирует GitHub
+vmlinux
+vmlinux.o
+.tmp_vmlinux*
+out/
+.config
+.config.old
